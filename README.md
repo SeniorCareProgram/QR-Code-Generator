@@ -2,6 +2,8 @@
 
 A powerful web-based membership identification and verification system that utilizes QR code technology to streamline member registration, identification, and validation processes.
 
+<img width="1405" height="843" alt="image" src="https://github.com/user-attachments/assets/8580b9f7-7da5-4317-b4ee-c707e1260afa" />
+
 **Built with:** HTML, CSS, JavaScript (100% client-side, no backend required)
 
 ## Features
@@ -15,8 +17,6 @@ A powerful web-based membership identification and verification system that util
 - **Digital Membership Identification** — Complete digital membership system
 - **Google Lens Compatible** — Scan with any standard QR reader
 - **Privacy First** — All data stays on your device
-
----
 
 ## Project Requirements Met
 
@@ -216,8 +216,6 @@ start index.html
 open index.html
 ```
 
----
-
 ## Member Information Included
 
 Each QR code contains:
@@ -226,8 +224,6 @@ Each QR code contains:
 - ✓ Club Affiliation
 - ✓ Membership Start Date
 - ✓ Membership Expiry Date
-
----
 
 ## How to Use
 
@@ -255,8 +251,6 @@ Click "Generate Membership QR" button
 - System automatically detects and decodes
 - Displays member details and verification status
 
----
-
 ## Scannable With
 
 Your QR codes work with:
@@ -266,9 +260,7 @@ Your QR codes work with:
 - **Third-party readers** - Any QR decoder
 - **ISO/IEC 18004 Standard** - Official QR spec compliant
 
----
-
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -278,8 +270,6 @@ Your QR codes work with:
 | Styling | Dark theme with gold accents |
 | Camera API | getUserMedia API |
 | Storage | Browser memory only (no database) |
-
----
 
 ## Privacy & Security Features
 
@@ -302,8 +292,6 @@ Your QR codes work with:
 - After initial load, application works without internet
 - Perfect for events or locations with poor connectivity
 
----
-
 ## Use Cases
 
 - **Senior Care Facilities** - Quick member identification
@@ -312,8 +300,6 @@ Your QR codes work with:
 - **Healthcare Settings** - Quick patient/member verification
 - **Digital Records** - Paperless membership management
 - **Event Coordination** - Efficient attendee verification
-
----
 
 ## Troubleshooting
 
@@ -344,8 +330,6 @@ Your QR codes work with:
 - Try in incognito/private mode
 - Test on different browser
 
----
-
 ## Tips & Best Practices
 
 **For Best Results:**
@@ -360,8 +344,6 @@ Your QR codes work with:
 - Display on screens for quick scanning
 - Share via text/WhatsApp
 - Embed in digital certificates
-
----
 
 ## Data Format in QR
 
@@ -381,8 +363,6 @@ This format is:
 - Compact and efficient
 - Easy to parse
 
----
-
 ## Browser Compatibility
 
 | Browser | Desktop | Mobile |
@@ -396,8 +376,6 @@ This format is:
 - JavaScript enabled
 - Camera access (for scanning)
 - Modern browser with Canvas API support
-
----
 
 ## Support
 
@@ -419,20 +397,23 @@ Need help? Try these:
    - Open browser DevTools (F12)
    - Check Console tab for error messages
 
----
-
 ## Key Advantages
 
 ✅ **No Setup Required** - Works immediately
-✅ **Completely Free** - No costs, no subscriptions  
-✅ **Fully Private** - All processing local
-✅ **No Backend Needed** - Pure HTML/CSS/JS
-✅ **Mobile Ready** - Works on any device
-✅ **Easy to Share** - Just send a link
-✅ **Professional Looking** - Modern dark theme
-✅ **Reliable** - ISO/IEC 18004 compliant
 
----
+✅ **Completely Free** - No costs, no subscriptions  
+
+✅ **Fully Private** - All processing local
+
+✅ **No Backend Needed** - Pure HTML/CSS/JS
+
+✅ **Mobile Ready** - Works on any device
+
+✅ **Easy to Share** - Just send a link
+
+✅ **Professional Looking** - Modern dark theme
+
+✅ **Reliable** - ISO/IEC 18004 compliant
 
 ## Support
 
