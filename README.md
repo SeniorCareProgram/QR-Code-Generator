@@ -6,14 +6,6 @@ A powerful web-based membership identification and verification system that util
 
 ---
 
-## 🚀 Live Demo
-
-👉 **[Open SeniorCare QR System Live](https://rai567245.github.io/SeniorCareProgram-Club-Membership-QR-ID-System/)**
-
-Try it now! No installation needed.
-
----
-
 ## ✨ Features
 
 - 📋 **Member Registration Form** — Easy-to-use form to enter member information
