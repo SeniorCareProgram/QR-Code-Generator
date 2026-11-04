@@ -4,8 +4,6 @@ A powerful web-based membership identification and verification system that util
 
 **Built with:** HTML, CSS, JavaScript (100% client-side, no backend required)
 
----
-
 ## Features
 
 - **Member Registration Form** — Easy-to-use form to enter member information
