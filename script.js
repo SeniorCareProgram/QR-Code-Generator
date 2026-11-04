@@ -271,12 +271,15 @@ function buildCardPreview() {
   var today    = new Date(); today.setHours(0,0,0,0);
   var parts    = memberData.expiryDate.split('-');
   var expiry   = new Date(+parts[0], +parts[1]-1, +parts[2]);
-  var daysLeft = Math.ceil((expiry - today) / 86400000);
+  var daysLeft = Math.round((expiry - today) / 86400000);
 
   var badgeClass, badgeText;
   if (daysLeft < 0) {
     badgeClass = 'expired';
     badgeText  = 'Expired ' + Math.abs(daysLeft) + ' day' + (Math.abs(daysLeft) !== 1 ? 's' : '') + ' ago';
+  } else if (daysLeft === 0) {
+    badgeClass = 'soon';
+    badgeText  = 'Expires today';
   } else if (daysLeft <= 30) {
     badgeClass = 'soon';
     badgeText  = 'Expiring soon \u00b7 ' + daysLeft + ' day' + (daysLeft !== 1 ? 's' : '') + ' left';
