@@ -1,4 +1,4 @@
-# 🏥 SeniorCare — Club Membership QR ID System
+# SeniorCare — Club Membership QR ID System
 
 A powerful web-based membership identification and verification system that utilizes QR code technology to streamline member registration, identification, and validation processes.
 
@@ -6,21 +6,21 @@ A powerful web-based membership identification and verification system that util
 
 ---
 
-## ✨ Features
+## Features
 
-- 📋 **Member Registration Form** — Easy-to-use form to enter member information
-- 🎯 **Unique QR Code Generation** — Automatically generates scannable QR codes
-- 📱 **Built-in QR Code Scanner** — Scan codes using your device camera
-- ✅ **Instant Membership Verification** — Verify member details on the spot
-- 📊 **Responsive Design** — Works perfectly on mobile and desktop
-- ⚡ **Browser-Based Operation** — No backend server needed
-- 🆔 **Digital Membership Identification** — Complete digital membership system
-- ✅ **Google Lens Compatible** — Scan with any standard QR reader
-- 🔒 **Privacy First** — All data stays on your device
+- **Member Registration Form** — Easy-to-use form to enter member information
+- **Unique QR Code Generation** — Automatically generates scannable QR codes
+- **Built-in QR Code Scanner** — Scan codes using your device camera
+- **Instant Membership Verification** — Verify member details on the spot
+- **Responsive Design** — Works perfectly on mobile and desktop
+- **Browser-Based Operation** — No backend server needed
+- **Digital Membership Identification** — Complete digital membership system
+- **Google Lens Compatible** — Scan with any standard QR reader
+- **Privacy First** — All data stays on your device
 
 ---
 
-## ✅ Project Requirements Met
+## Project Requirements Met
 
 ### 1. **No Inline Event Handlers**
 - ✅ All `onclick` attributes have been removed from HTML
@@ -46,7 +46,7 @@ A powerful web-based membership identification and verification system that util
 - ✅ No build tools needed
 - ✅ Compatible with modern browsers (Chrome, Firefox, Safari, Edge)
 
-## 📋 Features
+## Features
 
 ### Step 1: Member Information Form
 - Enter member name, Senior Care ID, club membership, and dates
@@ -71,7 +71,7 @@ A powerful web-based membership identification and verification system that util
 - Raw QR code data display
 - Options to scan again or start over
 
-## 🚀 How to Use
+## How to Use
 
 1. **Open in Browser**: Simply open `index.html` in any modern web browser
    ```
@@ -98,7 +98,7 @@ A powerful web-based membership identification and verification system that util
    - Point camera at QR code
    - System detects QR pattern and displays results
 
-## 📁 File Structure
+## File Structure
 
 ```
 IDSeniorCareProgram - QR Code Scanner (Custom Web-App)/
@@ -110,7 +110,7 @@ IDSeniorCareProgram - QR Code Scanner (Custom Web-App)/
 └── README.md               # This file
 ```
 
-## 🔧 Technical Details
+## Technical Details
 
 ### JavaScript Libraries (Local)
 
@@ -134,7 +134,7 @@ document.getElementById('downloadQRBtn').addEventListener('click', downloadQR);
 // ... more listeners
 ```
 
-## 🌐 Browser Support
+## Browser Support
 
 - Chrome/Chromium 60+
 - Firefox 55+
@@ -144,7 +144,7 @@ document.getElementById('downloadQRBtn').addEventListener('click', downloadQR);
 
 **Camera access required for scanning feature**
 
-## ⚙️ Configuration
+## Configuration
 
 No configuration needed. The application works out of the box.
 
@@ -163,20 +163,20 @@ If you want to remove the only external dependency (Google Fonts):
    --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
    ```
 
-## 🔐 Security Notes
+## Security Notes
 
 - All data is processed locally in the browser
 - No data is sent to external servers
 - Camera access is temporary and can be revoked
 - QR codes are generated based on form data
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 1. **QR Scanning**: The local QR scanner uses pattern detection. For 100% accuracy with arbitrary QR codes, full QR decoding algorithm would be required (complex mathematical operations).
 
 2. **Mobile Devices**: Some mobile browsers may require HTTPS for camera access. When opened locally, camera permissions should be granted.
 
-## 📝 Code Quality
+## Code Quality
 
 - No global function calls from HTML
 - Proper event delegation
@@ -185,7 +185,7 @@ If you want to remove the only external dependency (Google Fonts):
 - Semantic HTML structure
 - Accessible form inputs
 
-## 🎨 Styling
+## Styling
 
 The application uses a modern dark theme with:
 - Accent color: Gold (#f0a500)
@@ -194,7 +194,7 @@ The application uses a modern dark theme with:
 - Smooth animations and transitions
 - Accessibility-friendly contrast ratios
 
-## � Getting Started
+## Getting Started
 
 ### **Option 1: Use Online** (Recommended)
 Visit the live demo link above and start generating QR codes immediately. No installation needed!
@@ -220,7 +220,7 @@ open index.html
 
 ---
 
-## 📋 Member Information Included
+## Member Information Included
 
 Each QR code contains:
 - ✓ Member Full Name
@@ -231,7 +231,7 @@ Each QR code contains:
 
 ---
 
-## 📱 How to Use
+## How to Use
 
 ### **Step 1: Enter Member Information**
 Fill in all required fields:
@@ -259,14 +259,14 @@ Click "Generate Membership QR" button
 
 ---
 
-## ✅ Scannable With
+## Scannable With
 
 Your QR codes work with:
-- 📱 **Google Lens** - Point camera at QR
-- 📱 **iPhone Camera** - Built-in QR detection
-- 📱 **Android QR Apps** - All standard scanners
-- 🔍 **Third-party readers** - Any QR decoder
-- ✅ **ISO/IEC 18004 Standard** - Official QR spec compliant
+- **Google Lens** - Point camera at QR
+- **iPhone Camera** - Built-in QR detection
+- **Android QR Apps** - All standard scanners
+- **Third-party readers** - Any QR decoder
+- **ISO/IEC 18004 Standard** - Official QR spec compliant
 
 ---
 
@@ -283,30 +283,30 @@ Your QR codes work with:
 
 ---
 
-## 🔒 Privacy & Security Features
+## Privacy & Security Features
 
-✅ **100% Client-Side Processing**
+**100% Client-Side Processing**
 - All QR generation happens in your browser
 - All scanning happens on your device
 - No data sent to any server
 
-✅ **No Cloud Storage**
+**No Cloud Storage**
 - Nothing is saved externally
 - Nothing is logged or tracked
 - Complete privacy guaranteed
 
-✅ **No Registration Required**
+**No Registration Required**
 - Use immediately without login
 - No account creation needed
 - No personal data collection
 
-✅ **Works Offline**
+**Works Offline**
 - After initial load, application works without internet
 - Perfect for events or locations with poor connectivity
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
 - **Senior Care Facilities** - Quick member identification
 - **Community Centers** - Digital membership verification
@@ -317,30 +317,30 @@ Your QR codes work with:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### **QR Code Won't Generate**
-✅ **Solution:**
+**Solution:**
 - Verify all form fields are filled
 - Check that expiry date is after membership date
 - Refresh the page and try again
 
 ### **Camera Access Denied**
-✅ **Solution:**
+**Solution:**
 - Grant camera permission when browser requests it
 - Check browser settings for camera access
 - Try a different browser
 - Note: HTTPS required on production sites
 
 ### **QR Code Won't Scan**
-✅ **Solution:**
+**Solution:**
 - Ensure good lighting conditions
 - Hold QR code steady and centered
 - Try Google Lens or phone camera app
 - Test with a different device
 
 ### **Page Won't Load**
-✅ **Solution:**
+**Solution:**
 - Clear browser cache (Ctrl+Shift+Delete)
 - Disable browser extensions temporarily
 - Try in incognito/private mode
@@ -348,16 +348,16 @@ Your QR codes work with:
 
 ---
 
-## 💡 Tips & Best Practices
+## Tips & Best Practices
 
-📌 **For Best Results:**
+**For Best Results:**
 - Generate QR codes in advance for events
 - Test scanning on your target devices
 - Keep QR codes in good lighting conditions
 - Consider printing for physical cards
 - Use dark background for printed QR codes
 
-📌 **For Digital Distribution:**
+**For Digital Distribution:**
 - Email QR codes to members
 - Display on screens for quick scanning
 - Share via text/WhatsApp
@@ -365,7 +365,7 @@ Your QR codes work with:
 
 ---
 
-## 📊 Data Format in QR
+## Data Format in QR
 
 The QR code stores data in plain text format:
 ```
@@ -385,7 +385,7 @@ This format is:
 
 ---
 
-## 🌐 Browser Compatibility
+## Browser Compatibility
 
 | Browser | Desktop | Mobile |
 |---------|---------|--------|
@@ -401,7 +401,7 @@ This format is:
 
 ---
 
-## 📞 Support
+## Support
 
 Need help? Try these:
 
@@ -423,7 +423,7 @@ Need help? Try these:
 
 ---
 
-## 🌟 Key Advantages
+## Key Advantages
 
 ✅ **No Setup Required** - Works immediately
 ✅ **Completely Free** - No costs, no subscriptions  
@@ -436,7 +436,7 @@ Need help? Try these:
 
 ---
 
-## �📞 Support
+## Support
 
 For issues or improvements:
 1. Check browser console for errors
@@ -444,7 +444,7 @@ For issues or improvements:
 3. Verify all local files are in the same directory
 4. Try refreshing the page
 
-## 📄 License
+## License
 
 This is a demonstration project for senior care club membership management.
 
