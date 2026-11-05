@@ -150,7 +150,21 @@
       letter-spacing: 0.06em;
     }
 
-    .card-body { padding: 0; }
+    .card-body { padding: 0; position: relative; }
+    .card-watermark {
+      position: absolute;
+      left: 50%;
+      width: 120px;
+      height: 120px;
+      transform: translate(-50%, -50%);
+      opacity: 0.08;
+      pointer-events: none;
+      user-select: none;
+      z-index: 0;
+    }
+    .card-watermark.wm-middle { top: 38%; }
+    .card-watermark.wm-bottom { top: 82%; }
+    .card-body .field-row-pair { position: relative; z-index: 1; }
     .field-row-pair {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -371,6 +385,8 @@
           '</div>' +
         '</div>' +
         '<div class="card-body">' +
+          '<img class="card-watermark wm-middle" src="' + LOGO_B64 + '" alt="" aria-hidden="true"/>' +
+          '<img class="card-watermark wm-bottom" src="' + LOGO_B64 + '" alt="" aria-hidden="true"/>' +
           '<div class="field-row-pair">' +
             '<div class="field-item full">' +
               '<div class="field-label">Name of Member</div>' +
